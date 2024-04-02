@@ -1,0 +1,104 @@
+{% extends 'nav.html' %}
+{% block title %}
+Services page
+{% endblock title %}
+{% block body %}
+<br>
+<br>
+<br>
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Discover a curated selection of trendy fashion, beauty essentials</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4 class="title"><a href="">Personal Styling Services</a></h4>
+            <p class="description">Let our team of expert stylists help you find the perfect look for occasion with personalized styling advice and tailored to your individual preferences and body type.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4 class="title"><a href="">Exclusive Discounts and Promotions</a></h4>
+            <p class="description">Stay updated on the latest promotions and exclusive discounts available only to our loyal customers, allow you to shop your favorite products at unbeatable prices.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4 class="title"><a href="">Fast and Reliable Shipping</a></h4>
+            <p class="description">Enjoy hassle-free shopping with our fast and reliable shipping services, ensuring that your orders are delivered promptly to your doorstep.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4 class="title"><a href="">Easy Returns and Exchanges</a></h4>
+            <p class="description">Shop with confidence knowing that we offer easy returns and exchanges, allowing you to exchange or return items that don't meet your expectations.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+  {% load static %}
+  <!-- ======= More Services Section ======= -->
+  <section id="more-services" class="more-services">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="card" style="background-image: url('{% static 'assets/img/watch1.png' %}');" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Rolex Datejust</a></h5>
+              <p class="card-text">Rolex is one of the most prestigious watch brands globally, known for its timeless elegance and precision.</p>
+              <div class="read-more"><a href="/purchase"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="card" style="background-image: url('{% static 'assets/img/dress2.jpg' %}');" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Aidan Mattox</a></h5>
+              <p class="card-text">Aidan Mattox specializes in glamorous evening wear, offering a range of party dresses adorned.</p>
+              <div class="read-more"><a href="/purchase"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch mt-4">
+          <div class="card" style="background-image: url('{% static 'assets/img/make1.png' %}');" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Urban Decay</a></h5>
+              <p class="card-text"> Urban Decay is beloved for its rebellious approach to makeup, offering a range of textures.</p>
+              <div class="read-more"><a href="/purchase"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch mt-4">
+          <div class="card" style="background-image: url('{% static 'assets/img/heell1.jpg' %}');" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Gianvito Rossi</a></h5>
+              <p class="card-text">Gianvito Rossi is known for its refined heels that combine Italian craftsmanship with modern design.</p>
+              <div class="read-more"><a href="/purchase"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End More Services Section -->
+
+
+  {% endblock body %}
